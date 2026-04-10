@@ -1,0 +1,11 @@
+Requisitos Funcionais (RF):
+
+O sistema deve permitir a configuração de componentes de texto visuais informando tamanho, cor da fonte, cor do fundo e tipo do componente.
+
+O sistema deve restringir as opções de cores e tipos de componentes a listas predefinidas.
+
+Requisitos Não Funcionais (RNF):
+
+Manutenibilidade: O uso de tipagem estrita (Enums) para cores e componentes deve garantir que o código não quebre por erros de digitação (ex: digitar "preto" com zero no lugar de 'o').
+
+Portabilidade: A classe deve ser agnóstica a frameworks visuais

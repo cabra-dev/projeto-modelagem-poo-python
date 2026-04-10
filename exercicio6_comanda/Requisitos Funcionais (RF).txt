@@ -1,0 +1,13 @@
+Requisitos Funcionais (RF):
+
+Abrir comandas numeradas.
+
+Registrar itens (produto + quantidade).
+
+Calcular o fechamento da conta com taxas (opcional) e valor total.
+
+Requisitos Não Funcionais (RNF):
+
+Atomicidade: A finalização da comanda deve garantir que o status mude para "pago" e o estoque seja baixado simultaneamente.
+
+Resiliência: Suportar operação offline se a rede da padaria cair.

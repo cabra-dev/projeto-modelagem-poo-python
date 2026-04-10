@@ -1,0 +1,15 @@
+Requisitos Funcionais (RF):
+
+O sistema deve registrar leituras mensais contendo data, número da leitura e o consumo em KWh.
+
+O sistema deve processar o fechamento mensal, gerando uma fatura com valor a pagar, data de vencimento e datas de leitura.
+
+O sistema deve registrar o pagamento de faturas.
+
+O sistema deve fornecer relatórios de média de consumo e identificar os meses de maior e menor consumo.
+
+Requisitos Não Funcionais (RNF):
+
+Precisão Numérica: O valor da fatura deve ser calculado e armazenado usando tipos de alta precisão (ex: BigDecimal em Java ou Decimal no SQL) para evitar erros de arredondamento de centavos.
+
+Integridade Referencial: Não pode ser gerada uma fatura se não houver leituras registradas no período correspondente.

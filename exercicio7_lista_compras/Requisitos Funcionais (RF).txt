@@ -1,0 +1,12 @@
+Requisitos Funcionais (RF):
+
+Manter lista de itens com quantidades estimadas e preços previstos.
+
+Atualizar os preços efetivos após a compra.
+
+Comparar o total previsto vs. total realizado.
+
+Requisitos Não Funcionais (RNF):
+
+Usabilidade: Permitir a importação da lista do mês anterior (clonagem de lista).
+

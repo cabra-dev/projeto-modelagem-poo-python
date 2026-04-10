@@ -1,0 +1,11 @@
+Requisitos Funcionais (RF):
+
+O sistema deve inicializar um boneco em coordenadas X e Y específicas.
+
+O sistema deve permitir a alteração da direção do boneco e atualizar suas coordenadas com base na direção escolhida.
+
+Requisitos Não Funcionais (RNF):
+
+Performance / Baixa Latência: Se integrado a um motor gráfico (engine), o método de movimento deve executar em tempo mínimo para garantir fluidez (ex: 60 FPS).
+
+Validação de Limites: O sistema deve garantir que as coordenadas não ultrapassem os limites da tela (tratamento de colisão).

@@ -1,0 +1,11 @@
+Requisitos Funcionais (RF):
+
+O sistema deve manter os dados cadastrais básicos de forma unificada (pessoas físicas).
+
+O sistema deve tratar lógicas específicas para funcionários (promoções e reajustes salariais) e para clientes (registro de profissão).
+
+O sistema deve calcular a idade de qualquer pessoa registrada.
+
+Requisitos Não Funcionais (RNF):
+
+Reusabilidade de Código: A arquitetura deve evitar duplicação de atributos básicos no banco de dados e na aplicação.

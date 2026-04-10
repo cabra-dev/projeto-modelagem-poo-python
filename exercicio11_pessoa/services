@@ -1,0 +1,7 @@
+def resumo_pessoa(pessoa):
+    return {
+        "nome": pessoa.nome,
+        "idade": pessoa.calcular_idade(),
+        "telefones": len(pessoa.telefones),
+        "enderecos": len(pessoa.enderecos)
+    }

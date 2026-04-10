@@ -1,0 +1,12 @@
+05 – Exercício: Gastos Diários
+Requisitos Funcionais (RF):
+
+O sistema deve registrar gastos contendo tipo, data, valor e forma de pagamento.
+
+O sistema deve emitir relatórios sumarizados (totais) agrupados por tipo de gasto e por forma de pagamento no final do mês.
+
+Requisitos Não Funcionais (RNF):
+
+Segurança: Dados financeiros devem ser armazenados de forma segura e com backup regular.
+
+Escalabilidade de Banco: A modelagem deve prever índices nas colunas de data, tipoGasto e formaPagamento para que os relatórios mensais sejam gerados rapidamente, mesmo com milhares de registros.

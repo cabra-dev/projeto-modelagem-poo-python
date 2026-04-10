@@ -1,0 +1,13 @@
+Requisitos Funcionais (RF):
+
+O sistema deve permitir agendar reuniões vinculando uma Sala, um Funcionário, Data, Horário e Assunto.
+
+O sistema deve permitir a realocação flexível de uma reunião (mudar a sala, o dia ou a hora).
+
+O sistema deve fornecer uma consulta em tempo real de salas livres em uma faixa de horário.
+
+Requisitos Não Funcionais (RNF):
+
+Prevenção de Concorrência: Crítico. O sistema deve usar mecanismos de bloqueio para impedir que dois funcionários reservem a mesma sala no exato mesmo milissegundo.
+
+Auditoria: O sistema deve manter logs de quem realizou alterações ou cancelamentos em reuniões de terceiros.

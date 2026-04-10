@@ -1,0 +1,15 @@
+04 – Exercício: Horário de Remédios
+
+Requisitos Funcionais (RF):
+
+O sistema deve cadastrar os detalhes de uma prescrição (paciente, remédio, data de início, dosagem, frequência).
+
+O sistema deve calcular e sugerir a grade de horários diários para o tratamento.
+
+O sistema deve permitir reagendar e reorganizar os próximos horários caso o usuário atrase uma dose.
+
+Requisitos Não Funcionais (RNF):
+
+Confiabilidade: O sistema deve disparar notificações em background de forma confiável no horário exato da dose.
+
+Usabilidade: A interface mobile deve apresentar a planilha do dia de forma clara e permitir confirmar a dose com um único toque.

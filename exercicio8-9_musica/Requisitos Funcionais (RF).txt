@@ -1,0 +1,15 @@
+Requisitos Funcionais (RF):
+
+O sistema deve registrar CDs contendo título, ano, e flags (é coletânea? é duplo?).
+
+O sistema deve registrar as faixas (músicas) de cada CD, com tempo de duração.
+
+O sistema deve gerenciar a relação de múltiplos músicos em múltiplos CDs e Músicas.
+
+O sistema deve emitir relatórios cruzados (CDs de um músico; CDs que contêm uma música específica).
+
+Requisitos Não Funcionais (RNF):
+
+Integridade Relacional: Garantir que não existam registros órfãos (ex: uma música vinculada a um CD que foi deletado). Uso de Foreign Keys estritas no banco.
+
+Flexibilidade de Buscas: Implementar índices de Full-Text Search nos títulos das músicas e nomes dos artistas para pesquisas instantâneas.
